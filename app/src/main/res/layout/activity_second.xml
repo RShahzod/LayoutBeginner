@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView
+                android:text="UserID"
+                android:textSize="20sp"
+                />
+            <EditText android:hint="userID"
+                android:layout_marginStart="10dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="UserPw"
+                android:textSize="20sp"
+                />
+            <EditText android:hint="userPW"
+                android:layout_marginStart="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
