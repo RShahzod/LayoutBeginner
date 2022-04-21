@@ -30,7 +30,11 @@
             <EditText android:hint="userPW"
                 android:layout_marginStart="10dp"/>
         </TableRow>
-
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"/>
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
